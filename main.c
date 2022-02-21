@@ -10,6 +10,7 @@ typedef struct {
   int top;
 }StackType;
 
+
 void init(StackType *s)
 {
   s->top = -1;
